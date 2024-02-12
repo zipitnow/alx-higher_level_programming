@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 0x01. Python - if/else, loops, functions
-=======
-0x00. Python - Hello, World
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 Python
 
     By: Guillaume
@@ -12,43 +8,16 @@ Python
 
 In a nutshell…
 
-<<<<<<< HEAD
     Auto QA review: 0.0/160 mandatory & 0.0/41 optional
-=======
-    Auto QA review: 0.0/89 mandatory & 0.0/27 optional
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
     Altogether:  0.0%
         Mandatory: 0.0%
         Optional: 0.0%
         Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
 
-<<<<<<< HEAD
-=======
-Concepts
-
-For this project, we expect you to look at this concept:
-
-    Python programming
-
-Author’s disclaimer
-
-Welcome to the Python world!
-
-The first projects are more "C-oriented" - no tricks, no funky syntax - simple!
-If you've already played with Python, don't worry, fun things will come.
-You'll soon find that with Python (and the majority of higher level languages), there are ten different ways to do the same thing. Some tasks will expect only one implementation, while other tasks will have multiple possible implementations.
-Like C, Python also has a linter / style guide like Betty, called PEP8, also now known as PyCode.
-
-Enjoy!
-
-- Guillaume
-
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 Resources
 
 Read or watch:
 
-<<<<<<< HEAD
     More Control Flow Tools (Read until “4.6. Defining Functions” included)
     IndentationError
     How To Use String Formatters in Python 3
@@ -60,23 +29,12 @@ man or help:
 
     python3
 
-=======
-    The Python tutorial (only the first three chapters below)
-    Whetting Your Appetite
-    Using the Python Interpreter
-    An Informal Introduction to Python (Read up until “3.1.2. Strings” included)
-    How To Use String Formatters in Python 3
-    Learn to Program
-    Pycodestyle – Style Guide for Python Code
-
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 General
 
     Why Python programming is awesome
-<<<<<<< HEAD
     Why indentation is so important in Python
     How to use the if, if ... else statements
     How to use comments
@@ -92,17 +50,6 @@ General
     Scope of variables
     What’s a traceback
     What are the arithmetic operators and how to use them
-=======
-    Who created Python
-    Who is Guido van Rossum
-    Where does the name ‘Python’ come from
-    What is the Zen of Python
-    How to use the Python interpreter
-    How to print text and variables using print
-    How to use strings
-    What are indexing and slicing in Python
-    What is the official Python coding style and how to check your code with pycodestyle
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Copyright - Plagiarism
 
@@ -118,28 +65,11 @@ Python Scripts
     All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
     All your files should end with a new line
     The first line of all your files should be exactly #!/usr/bin/python3
-<<<<<<< HEAD
     A README.md file, at the root of the folder of the project, is mandatory
-=======
-    A README.md file at the root of the repo, containing a description of the repository
-    A README.md file, at the root of the folder of this project, is mandatory
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
     Your code should use the pycodestyle (version 2.8.*)
     All your files must be executable
     The length of your files will be tested using wc
 
-<<<<<<< HEAD
-=======
-Shell Scripts
-
-    Allowed editors: vi, vim, emacs
-    All your scripts will be tested on Ubuntu 20.04 LTS
-    All your scripts should be exactly two lines long (wc -l file should print 2)
-    All your files should end with a new line
-    The first line of all your files should be exactly #!/bin/bash
-    All your files must be executable
-
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 C Scripts
 
     Allowed editors: vi, vim, emacs
@@ -154,7 +84,6 @@ C Scripts
     All your header files should be include guarded
 
 More Info
-<<<<<<< HEAD
 
 Note: you do not need to understand lists yet.
 Quiz questions
@@ -263,62 +192,10 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 
 guillaume@ubuntu:~/0x01$ ./2-print_alphabet.py
 abcdefghijklmnopqrstuvwxyzguillaume@ubuntu:~/0x01$
-=======
-Zen
-
-The Zen of Python, by Tim Peters
-
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren't special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!
-
-Pycodestyle
-
-Pycodestyle is now the new standard of Python style code
-
-
-
-Quiz questions
-Great! You've completed the quiz successfully! Keep going! (Show quiz)
-Tasks
-0. Run Python file
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-Write a Shell script that runs a Python script.
-
-The Python file name will be saved in the environment variable $PYFILE
-
-guillaume@ubuntu:~/py/0x00$ cat main.py 
-#!/usr/bin/python3
-print("Best School")
-
-guillaume@ubuntu:~/py/0x00$ export PYFILE=main.py
-guillaume@ubuntu:~/py/0x00$ ./0-run
-Best School
-guillaume@ubuntu:~/py/0x00$ 
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 2-print_alphabet.py
 
@@ -336,28 +213,10 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 
 guillaume@ubuntu:~/0x01$ ./3-print_alphabt.py
 abcdfghijklmnoprstuvwxyzguillaume@ubuntu:~/0x01$
-=======
-    Directory: 0x00-python-hello_world
-    File: 0-run
-
-1. Run inline
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-Write a Shell script that runs Python code.
-
-The Python code will be saved in the environment variable $PYCODE
-
-guillaume@ubuntu:~/py/0x00$ export PYCODE='print(f"Best School: {88+10}")'
-guillaume@ubuntu:~/py/0x00$ ./1-run_inline 
-Best School: 98
-guillaume@ubuntu:~/py/0x00$ 
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 3-print_alphabt.py
 
@@ -421,27 +280,10 @@ Write a program that prints numbers from 0 to 99.
 guillaume@ubuntu:~/0x01$ ./5-print_comb2.py
 00, 01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99
 guillaume@ubuntu:~/0x01$ 
-=======
-    Directory: 0x00-python-hello_world
-    File: 1-run_inline
-
-2. Hello, print
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
-
-    Use the function print
-
-guillaume@ubuntu:~/py/0x00$ ./2-print.py 
-"Programming is like building a multilingual puzzle
-guillaume@ubuntu:~/py/0x00$
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 5-print_comb2.py
 
@@ -465,33 +307,10 @@ Write a program that prints all possible different combinations of two digits.
 guillaume@ubuntu:~/0x01$ ./6-print_comb3.py
 01, 02, 03, 04, 05, 06, 07, 08, 09, 12, 13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 26, 27, 28, 29, 34, 35, 36, 37, 38, 39, 45, 46, 47, 48, 49, 56, 57, 58, 59, 67, 68, 69, 78, 79, 89
 guillaume@ubuntu:~/0x01$ 
-=======
-    Directory: 0x00-python-hello_world
-    File: 2-print.py
-
-3. Print integer
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
-
-    You can find the source code here
-    The output of the script should be:
-        the number, followed by Battery street,
-        followed by a new line
-    You are not allowed to cast the variable number into a string
-    Your code must be 3 lines long
-    You have to use f-strings tips
-
-guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
-98 Battery street
-guillaume@ubuntu:~/py/0x00$ 
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 6-print_comb3.py
 
@@ -527,32 +346,10 @@ A is upper
 3 is upper
 g is lower
 guillaume@ubuntu:~/0x01$ 
-=======
-    Directory: 0x00-python-hello_world
-    File: 3-print_number.py
-
-4. Print float
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.
-
-    You can find the source code here
-    The output of the program should be:
-        Float:, followed by the float with only 2 digits
-        followed by a new line
-    You are not allowed to cast number to string
-    You have to use f-strings
-
-guillaume@ubuntu:~/py/0x00$ ./4-print_float.py
-Float: 3.14
-guillaume@ubuntu:~/py/0x00$ 
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 7-islower.py
 
@@ -582,35 +379,10 @@ guillaume@ubuntu:~/0x01$ ./8-main.py
 BEST
 BEST SCHOOL 98 BATTERY STREET
 guillaume@ubuntu:~/0x01$ 
-=======
-    Directory: 0x00-python-hello_world
-    File: 4-print_float.py
-
-5. Print string
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
-
-    You can find the source code here
-    The output of the program should be:
-        3 times the value of str
-        followed by a new line
-        followed by the 9 first characters of str
-        followed by a new line
-    You are not allowed to use any loops or conditional statement
-    Your program should be maximum 5 lines long
-
-guillaume@ubuntu:~/py/0x00$ ./5-print_string.py 
-Holberton SchoolHolberton SchoolHolberton School
-Holberton
-guillaume@ubuntu:~/py/0x00$ 
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 8-uppercase.py
 
@@ -638,32 +410,10 @@ print(r)
 guillaume@ubuntu:~/0x01$ ./9-main.py
 8044
 guillaume@ubuntu:~/0x01$ 
-=======
-    Directory: 0x00-python-hello_world
-    File: 5-print_string.py
-
-6. Play with strings
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-Complete this source code to print Welcome to Holberton School!
-
-    You can find the source code here
-    You are not allowed to use any loops or conditional statements.
-    You have to use the variables str1 and str2 in your new line of code
-    Your program should be exactly 5 lines long
-
-guillaume@ubuntu:~/py/0x00$ ./6-concat.py
-Welcome to Holberton School!
-guillaume@ubuntu:~/py/0x00$ wc -l 6-concat.py
-5 6-concat.py
-guillaume@ubuntu:~/py/0x00$ 
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 9-print_last_digit.py
 
@@ -692,36 +442,10 @@ guillaume@ubuntu:~/0x01$ ./10-main.py
 98
 98
 guillaume@ubuntu:~/0x01$ 
-=======
-    Directory: 0x00-python-hello_world
-    File: 6-concat.py
-
-7. Copy - Cut - Paste
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-Complete this source code
-
-    You can find the source code here
-    You are not allowed to use any loops or conditional statements
-    Your program should be exactly 8 lines long
-    word_first_3 should contain the first 3 letters of the variable word
-    word_last_2 should contain the last 2 letters of the variable word
-    middle_word should contain the value of the variable word without the first and last letters
-
-guillaume@ubuntu:~/py/0x00$ ./7-edges.py
-First 3 letters: Hol
-Last 2 letters: on
-Middle word: olberto
-guillaume@ubuntu:~/py/0x00$ wc -l 7-edges.py
-8 7-edges.py
-guillaume@ubuntu:~/py/0x00$ 
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 10-add.py
 
@@ -754,33 +478,10 @@ guillaume@ubuntu:~/0x01$ ./11-main.py
 0.0001
 -1024
 guillaume@ubuntu:~/0x01$ 
-=======
-    Directory: 0x00-python-hello_world
-    File: 7-edges.py
-
-8. Create a new sentence
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-Complete this source code to print object-oriented programming with Python, followed by a new line.
-
-    You can find the source code here
-    You are not allowed to use any loops or conditional statements
-    Your program should be exactly 5 lines long
-    You are not allowed to create new variables
-    You are not allowed to use string literals
-
-guillaume@ubuntu:~/py/0x00$ ./8-concat_edges.py
-object-oriented programming with Python
-guillaume@ubuntu:~/py/0x00$ wc -l 8-concat_edges.py
-5 8-concat_edges.py
-guillaume@ubuntu:~/py/0x00$ 
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 11-pow.py
 
@@ -808,57 +509,14 @@ print("")
 guillaume@ubuntu:~/0x01$ ./12-main.py | cat -e
 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz 41 Fizz 43 44 FizzBuzz 46 47 Fizz 49 Buzz Fizz 52 53 Fizz Buzz 56 Fizz 58 59 FizzBuzz 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz $
 guillaume@ubuntu:~/0x01$ 
-=======
-    Directory: 0x00-python-hello_world
-    File: 8-concat_edges.py
-
-9. Easter Egg
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
-
-Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
-
-    Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
-
-guillaume@ubuntu:~/py/0x00$ ./9-easter_egg.py
-The Zen of Python, by Tim Peters
-
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren't special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!
-guillaume@ubuntu:~/py/0x00$
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 12-fizzbuzz.py
 
 13. Insert in sorted linked list
-=======
-    Directory: 0x00-python-hello_world
-    File: 9-easter_egg.py
-
-10. Linked list cycle
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
 
@@ -866,7 +524,6 @@ Technical interview preparation:
 
     You are not allowed to google anything
     Whiteboard first
-<<<<<<< HEAD
 
 Write a function in C that inserts a number into a sorted singly linked list.
 
@@ -877,36 +534,13 @@ carrie@ubuntu:0x01$ cat lists.h
 #ifndef LISTS_H
 #define LISTS_H
 
-=======
-    This task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.
-
-Write a function in C that checks if a singly linked list has a cycle in it.
-
-    Prototype: int check_cycle(listint_t *list);
-    Return: 0 if there is no cycle, 1 if there is a cycle
-
-Requirements:
-
-    Only these functions are allowed: write, printf, putchar, puts, malloc, free
-
-carrie@ubuntu:~/0x00$ cat lists.h
-#ifndef LISTS_H
-#define LISTS_H
-
-#include <stdlib.h>
-
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 /**
  * struct listint_s - singly linked list
  * @n: integer
  * @next: points to the next node
  *
  * Description: singly linked list node structure
-<<<<<<< HEAD
  *
-=======
- * 
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
  */
 typedef struct listint_s
 {
@@ -915,7 +549,6 @@ typedef struct listint_s
 } listint_t;
 
 size_t print_listint(const listint_t *h);
-<<<<<<< HEAD
 listint_t *add_nodeint_end(listint_t **head, const int n);
 void free_listint(listint_t *head);
 
@@ -924,15 +557,6 @@ listint_t *insert_node(listint_t **head, int number);
 #endif /* LISTS_H */
 
 carrie@ubuntu:0x01$ cat linked_lists.c 
-=======
-listint_t *add_nodeint(listint_t **head, const int n);
-void free_listint(listint_t *head);
-int check_cycle(listint_t *list);
-
-#endif /* LISTS_H */
-
-carrie@ubuntu:~/0x00$ cat 10-linked_lists.c
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 #include <stdio.h>
 #include <stdlib.h>
 #include "lists.h"
@@ -960,7 +584,6 @@ size_t print_listint(const listint_t *h)
 }
 
 /**
-<<<<<<< HEAD
  * add_nodeint_end - adds a new node at the end of a listint_t list
  * @head: pointer to pointer of first node of listint_t list
  * @n: integer to be included in new node
@@ -972,23 +595,12 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
     listint_t *current;
 
     current = *head;
-=======
- * add_nodeint - adds a new node at the beginning of a listint_t list
- * @head: pointer to a pointer of the start of the list
- * @n: integer to be included in node
- * Return: address of the new element or NULL if it fails
- */
-listint_t *add_nodeint(listint_t **head, const int n)
-{
-    listint_t *new;
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
     new = malloc(sizeof(listint_t));
     if (new == NULL)
         return (NULL);
 
     new->n = n;
-<<<<<<< HEAD
     new->next = NULL;
 
     if (*head == NULL)
@@ -999,10 +611,6 @@ listint_t *add_nodeint(listint_t **head, const int n)
             current = current->next;
         current->next = new;
     }
-=======
-    new->next = *head;
-    *head = new;
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
     return (new);
 }
@@ -1024,29 +632,20 @@ void free_listint(listint_t *head)
     }
 }
 
-<<<<<<< HEAD
 carrie@ubuntu:0x01$ cat 13-main.c 
-=======
-carrie@ubuntu:~/0x00$ cat 10-main.c
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
 
 /**
-<<<<<<< HEAD
  * main - check the code for
-=======
- * main - check the code
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
  *
  * Return: Always 0.
  */
 int main(void)
 {
     listint_t *head;
-<<<<<<< HEAD
 
     head = NULL;
     add_nodeint_end(&head, 0);
@@ -1064,50 +663,12 @@ int main(void)
     insert_node(&head, 27);
 
     print_listint(head);
-=======
-    listint_t *current;
-    listint_t *temp;
-    int i;
-
-    head = NULL;
-    add_nodeint(&head, 0);
-    add_nodeint(&head, 1);
-    add_nodeint(&head, 2);
-    add_nodeint(&head, 3);
-    add_nodeint(&head, 4);
-    add_nodeint(&head, 98);
-    add_nodeint(&head, 402);
-    add_nodeint(&head, 1024);
-    print_listint(head);
-
-    if (check_cycle(head) == 0)
-        printf("Linked list has no cycle\n");
-    else if (check_cycle(head) == 1)
-        printf("Linked list has a cycle\n");
-
-    current = head;
-    for (i = 0; i < 4; i++)
-        current = current->next;
-    temp = current->next;
-    current->next = head;
-
-    if (check_cycle(head) == 0)
-        printf("Linked list has no cycle\n");
-    else if (check_cycle(head) == 1)
-        printf("Linked list has a cycle\n");
-
-    current = head;
-    for (i = 0; i < 4; i++)
-        current = current->next;
-    current->next = temp;
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
     free_listint(head);
 
     return (0);
 }
 
-<<<<<<< HEAD
 carrie@ubuntu:0x01$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 13-main.c linked_lists.c 13-insert_number.c -o insert
 carrie@ubuntu:0x01$ ./insert
 0
@@ -1129,33 +690,11 @@ carrie@ubuntu:0x01$ ./insert
 402
 1024
 carrie@ubuntu:0x01$  
-=======
-carrie@ubuntu:~/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
-carrie@ubuntu:~/0x00$$ ./cycle 
-1024
-402
-98
-4
-3
-2
-1
-0
-Linked list has no cycle
-Linked list has a cycle
-carrie@ubuntu:~/0x00$
-
-    Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 Repo:
 
     GitHub repository: alx-higher_level_programming
-<<<<<<< HEAD
     Directory: 0x01-python-if_else_loops_functions
     File: 13-insert_number.c, lists.h
-=======
-    Directory: 0x00-python-hello_world
-    File: 10-check_cycle.c, lists.h
->>>>>>> 27531c40ad77aa1165d3b7cc9c6492ab711a1cad
 
 
